@@ -1,19 +1,15 @@
-# JobIndex job searcher
-Searches JobIndex for IT jobs in a inputted radius. 
-Uses my address for now, but change query for your own.
+# Job Scraper Automator
+Scrapes IT jobs near Aalborg from Jobindex.dk.
 
 ## Features
-- Fetches JobIndex.
-- Breaks down jobs in title, description, URL and distance.
-- Saves it to a csv.
+- Fetches job title, URL, distance, and description with Python/BeautifulSoup.
+- Filters by radius (CLI arg, e.g., `python script.py 10` for 10 km).
+- Sorts by distance, saves to `jobs.csv`.
 
-## Output
-jobs.csv
-
-## How to Run
-1. Have pandas, requests, beautifulsoup and argparse installed.`
-4. Run: `python script.py` and enter a radius e.g. python3 script.py 100
+## Setup
+1. `pip install requests beautifulsoup4 pandas`
+2. Run: `python3 scraper.py <radius>`
 
 ## Files
-- `script.py`: Main code.
-- `jobs.csv`: Raw job data.
+- `script.py`: The scraper.
+- `jobs.csv`: Sample output (ignored in git).
