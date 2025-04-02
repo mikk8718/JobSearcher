@@ -12,7 +12,7 @@ jobs.csv
 
 ## How to Run
 1. Have pandas, requests, beautifulsoup and argparse installed.`
-4. Run: `python script.py`
+4. Run: `python script.py` and enter a radius e.g. python3 script.py 100
 
 ## Files
 - `script.py`: Main code.
