@@ -35,7 +35,7 @@ if __name__ == "__main__":
                 })
 
                 df_sorted = jobs.sort_values(by="distance", ascending=True)
-                df_sorted.to_csv("informationTeknologiJobs", index=False)
+                df_sorted.to_csv("jobs", index=False)
             exit()
         
 
