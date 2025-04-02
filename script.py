@@ -18,7 +18,6 @@ if __name__ == "__main__":
         response = requests.get(base_url)
         
         if response.status_code != 200:
-            print(f"Oops, got {response.status_code}. Check the URL or network!")
             exit()
         
         soup = BeautifulSoup(response.text, "html.parser")
