@@ -1,3 +1,6 @@
+#TODO 
+rewrite to js
+
 # Job Scraper Automator
 Scrapes IT jobs near Aalborg from Jobindex.dk.
 
